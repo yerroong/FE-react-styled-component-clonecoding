@@ -23,9 +23,6 @@ https://getbootstrap.com/docs/4.3/examples/album/
 
 ![20240513_14493447](https://github.com/yerroong/FE-react-styled-component-clonecoding/assets/127104536/73cc79a9-c2d3-4f5f-b076-c2cbf1326086)
 
-
-![](https://velog.velcdn.com/images/wuzoo/post/509d4112-3edb-482d-82cb-89edf105a060/image.png)
-
 ## 구현 조건
 
 1. `components`, `assets`, `pages` 3개의 폴더로 구분하여 개발합니다.

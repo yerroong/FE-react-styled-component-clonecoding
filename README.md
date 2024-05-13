@@ -30,7 +30,20 @@ https://getbootstrap.com/docs/4.3/examples/album/
 2. 상단에 `Header`는 스크롤하여도 화면에 고정되어 보이도록 합니다.
 
 ## 컴포넌트 계층 구조
+Contents, Header, Pictures 세개의 컴포넌트로 구성됨.
 
-주된 컴포넌트인 헤더, 푸터, 포토카드(사진과 글이 있는 것), 버튼에 대해 어떤 계층으로 설계했는지 이곳에 작성해주세요. 그리고 자식 컴포넌트 들에 대해서 어떤 의도를 갖고 설계했는지(ex 정렬하기 위해서, border를 주기 위해서 등) 부담없이 간단하게 적으면 됩니다. (아래는 예시입니다.)
+Contents 구조 (헤더 아래 내용을 나타냄)
+- Container: 화면을 가로지르며 세로 중앙 정렬된 공간
+- ContentWrapper: 컨텐츠의 내용을 담고 있는 영역
+- Title: 앨범의 제목을 표시
+- Subtitle: 앨범에 대한 간단한 설명을 표시
+- ButtonContainer: 버튼들을 가로로 정렬하는 컨테이너
+- Button: 주된 액션을 나타내는 버튼
 
-![](https://velog.velcdn.com/images/wuzoo/post/ab092dd4-595e-41ab-a850-85cab0c83e80/image.png)
+Pictures 구조
+- Wrapper: 최상위 컨테이너로, 포토카드들을 감싸는 역할
+- Thumbnail: card의 이미지를 표시하는 역할
+- MainWrapper: 각각의 카드를 감싸는 역할
+- WordWrapper: time과 버튼을 포함하는 부분을 감싸는 역할
+- ButtonWrapper: 버튼을 감싸는 역할
++) Button: 각각의 버튼 요소, Time: 카드 아래에 위치한 시간 정보를 표시, P: 카드에 표시되는 내용을 나타내는 부분
